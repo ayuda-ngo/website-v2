@@ -4,15 +4,16 @@ import React from "react";
 import Carousel from "react-spring-3d-carousel";
 import { config } from "react-spring";
 
-
 // assets
-import sudhaar from '../images/initiatives/Sudhaar.png'
-import gyaan from '../images/initiatives/Gyaan.png'
-import nirmaan from '../images/initiatives/Nirmaan.png'
-import gogreen from '../images/initiatives/Go-Green.png'
-import muskaan from '../images/initiatives/Muskaan.png'
-import { ArrowLeftSquareFill, ArrowRightSquareFill } from '@styled-icons/bootstrap'
-
+import sudhaar from "../images/initiatives/Sudhaar.png";
+import gyaan from "../images/initiatives/Gyaan.png";
+import nirmaan from "../images/initiatives/Nirmaan.png";
+import gogreen from "../images/initiatives/Go-Green.png";
+import muskaan from "../images/initiatives/Muskaan.png";
+import {
+  ArrowLeftSquareFill,
+  ArrowRightSquareFill,
+} from "@styled-icons/bootstrap";
 
 const Initiatives = () => {
   const [card, setCard] = useState({
