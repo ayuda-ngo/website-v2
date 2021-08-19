@@ -69,7 +69,8 @@ const y2021 = {
       designation: "External Events Head",
       instagram:
         "https://instagram.com/imdharshan48_arjunreddyjr?igshid=hkjjqzshaiv7",
-      linkedin: "https://www.linkedin.com/in/arul-dharshan-saravanan-9686101b9/",
+      linkedin:
+        "https://www.linkedin.com/in/arul-dharshan-saravanan-9686101b9/",
     },
     {
       id: "8",

@@ -4,7 +4,6 @@ module.exports = {
     title: "website-v2",
   },
   plugins: [
-    "gatsby-plugin-netlify-cms",
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
     {
