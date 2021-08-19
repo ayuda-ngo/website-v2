@@ -12,7 +12,7 @@ import pic201810 from "../images/board/2018/pic2018-10.png";
 
 // data
 const y2018 = {
-  title: "2019-2020",
+  title: "2018-2019",
   data: [
     {
       id: "1",
