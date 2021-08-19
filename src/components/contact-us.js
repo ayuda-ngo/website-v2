@@ -1,10 +1,12 @@
+import React from "react";
+
+// assets
 import {
   FacebookSquare,
   Instagram,
   Linkedin,
   Medium,
 } from "@styled-icons/boxicons-logos";
-import React from "react";
 
 const ContactUs = () => (
   <div className="ContactUs">
