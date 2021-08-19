@@ -3,10 +3,8 @@ import { Link as Scrolldown } from "react-scroll";
 import { Link } from "gatsby";
 import { Helmet } from "react-helmet";
 
-
 // project import
-import data from "../data/gallery-data"
-
+import data from "../data/gallery-data";
 
 // assets
 import "../styles/gallery-page.scss";

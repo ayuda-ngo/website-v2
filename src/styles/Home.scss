@@ -1,13 +1,13 @@
 @font-face {
   font-family: BNoodle;
-  src: url("../Fonts/BigNoodle/big_noodle_titling.ttf");
+  src: url("./fonts/big_noodle_titling.ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: BNoodle;
-  src: url("../Fonts/BigNoodle/big_noodle_titling_oblique.ttf");
+  src: url("./fonts/big_noodle_titling_oblique.ttf");
   font-weight: normal;
   font-style: oblique;
 }
@@ -17,12 +17,12 @@
 @import "./Nav";
 @import "./Landing";
 @import "./Story";
-@import "./Events";
-@import "./Initiatives";
-@import "./Blogspot";
-@import "./Board";
-@import "./Gallery";
-@import "./Contact";
+// @import "./Events";
+// @import "./Initiatives";
+// @import "./Blogspot";
+// @import "./Board";
+// @import "./Gallery";
+// @import "./Contact";
 
 * {
   margin: 0%;
