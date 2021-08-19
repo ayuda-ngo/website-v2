@@ -20,7 +20,7 @@ const y2018 = {
       name: "Aman Bagaria",
       designation: "Chairperson",
       instagram: ".",
-      linkednin: ".",
+      linkedin: ".",
     },
     {
       id: "2",
@@ -28,7 +28,7 @@ const y2018 = {
       name: "Raghu Kapur",
       designation: "Vice Chairperson",
       instagram: ".",
-      linkednin: ".",
+      linkedin: ".",
     },
     {
       id: "3",
@@ -36,7 +36,7 @@ const y2018 = {
       name: "Rupali Singhai",
       designation: "Director of HR",
       instagram: ".",
-      linkednin: ".",
+      linkedin: ".",
     },
     {
       id: "4",
@@ -44,7 +44,7 @@ const y2018 = {
       name: "Puja Bera",
       designation: "Marketing Head",
       instagram: ".",
-      linkednin: ".",
+      linkedin: ".",
     },
     {
       id: "5",
@@ -52,7 +52,7 @@ const y2018 = {
       name: "Shrivats Agarwal",
       designation: "Finance Head",
       instagram: ".",
-      linkednin: ".",
+      linkedin: ".",
     },
     {
       id: "6",
@@ -60,7 +60,7 @@ const y2018 = {
       name: "Ankit Siddharta",
       designation: "Externals Event Head",
       instagram: ".",
-      linkednin: ".",
+      linkedin: ".",
     },
     {
       id: "7",
@@ -68,7 +68,7 @@ const y2018 = {
       name: "Dushyant Yadav",
       designation: "Internal Events Head",
       instagram: ".",
-      linkednin: ".",
+      linkedin: ".",
     },
     {
       id: "8",
@@ -76,7 +76,7 @@ const y2018 = {
       name: "Shubham Arora",
       designation: "Editorial Head",
       instagram: ".",
-      linkednin: ".",
+      linkedin: ".",
     },
     {
       id: "9",
@@ -84,7 +84,7 @@ const y2018 = {
       name: "Ria Malik",
       designation: "Internal Events Head",
       instagram: ".",
-      linkednin: ".",
+      linkedin: ".",
     },
     {
       id: "10",
@@ -92,7 +92,7 @@ const y2018 = {
       name: "Arun Prasad",
       designation: "External Events Head ",
       instagram: ".",
-      linkednin: ".",
+      linkedin: ".",
     },
   ],
 };
