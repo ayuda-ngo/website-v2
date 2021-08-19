@@ -1,0 +1,55 @@
+@font-face {
+  font-family: BNoodle;
+  src: url("../Fonts/BigNoodle/big_noodle_titling.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: BNoodle;
+  src: url("../Fonts/BigNoodle/big_noodle_titling_oblique.ttf");
+  font-weight: normal;
+  font-style: oblique;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import "./Nav";
+@import "./Landing";
+@import "./Story";
+@import "./Events";
+@import "./Initiatives";
+@import "./Blogspot";
+@import "./Board";
+@import "./Gallery";
+@import "./Contact";
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #ffffff;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+a {
+  white-space: nowrap;
+}
+img {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  html {
+    height: 100%;
+  }
+}

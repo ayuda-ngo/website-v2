@@ -1,0 +1,336 @@
+.BoardP {
+  .Bcards {
+    h1 {
+      font-family: Bnoodle;
+      color: #ffcf00;
+      font-weight: 500;
+      font-size: 6em;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 1em;
+    }
+    .cards {
+      width: 85%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .cards::-webkit-scrollbar {
+      display: none;
+    }
+
+    .Card {
+      width: 17.5em;
+      height: 22em;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.151);
+      border-radius: 10px;
+      margin-bottom: 4em;
+      margin-left: 2.2em;
+      margin-right: 2.2em;
+      transition: all 0.5s ease;
+      img {
+        width: 100%;
+        height: 16.7em;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        object-fit: cover;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.8em;
+        padding-left: 0.8rem;
+        padding-bottom: 0.5em;
+        .social-i {
+          display: flex;
+          justify-content: flex-end;
+          width: 2rem;
+          #linkedin {
+            margin-left: 8px;
+          }
+        }
+        .Card-title {
+          font-family: BNoodle;
+          color: #ffcf00;
+          font-weight: normal;
+          font-size: 1.20em;
+          margin-block-start: 0;
+          margin-block-end: 0;
+        }
+      }
+      .Card-text {
+        font-family: raleway;
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+        padding-left: 0.9em;
+        margin-block-start: 0;
+        margin-block-end: 0;
+      }
+      .card-body {
+        height: 5.3em;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-image: linear-gradient(#00277d, #00143f);
+      }
+    }
+    .Card:hover {
+      transform: translate3D(0, -1px, 0) scale(1.09);
+      box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.274);
+    }
+  }
+  .Bhead {
+    min-height: 90vh;
+    background-image: linear-gradient(#000000, #001950);
+    padding-left: 4em;
+    .contoverflow {
+      padding-bottom: 4.5em;
+    }
+    .title {
+      display: flex;
+      align-items: center;
+      margin-top: 3em;
+      text-decoration: none;
+      img {
+        width: 4.5em;
+        margin-right: 1.2em;
+      }
+      p {
+        font-size: 2.6em;
+        font-family: Bnoodle;
+        color: white;
+      }
+    }
+    .content {
+      h3,
+      h4 {
+        font-family: Bnoodle;
+        margin-top: 15vh;
+        font-size: 2.9em;
+        font-weight: 500;
+        color: white;
+      }
+      h4 {
+        font-size: 2.4em;
+        color: #ffcf00;
+        margin-top: 0.2em;
+      }
+      p {
+        font-family: raleway;
+        font-weight: 500;
+        color: white;
+        font-size: 1.2em;
+        width: 95%;
+        line-height: 1.6;
+        margin-top: 2em;
+        span {
+          color: #ffcf00;
+        }
+        margin-bottom: 3em;
+      }
+      a {
+        padding: 0.8em 2em;
+        text-decoration: none;
+        background-color: transparent;
+        border: #ffcf00 3px solid;
+        border-radius: 0px;
+        color: #ffcf00;
+        font-family: raleway;
+        font-weight: 600;
+        outline: none;
+        font-size: 1.1em;
+        cursor: pointer;
+      }
+      a:hover {
+        background-color: #ffcf00;
+        color: white;
+      }
+    }
+    .boardscroll {
+      overflow: hidden;
+      .roll {
+        position: absolute;
+        right: 0;
+        width: 80%;
+        height: 950%;
+        // background-image: url(../Images/BoardScroll3.png);
+        background-size: contain;
+        background-repeat: repeat;
+        animation: slide 120s linear infinite;
+      }
+      @keyframes slide {
+        from {
+          background-position-y: 0;
+        }
+        to {
+          background-position-y: -100%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .BoardP {
+    .Bhead {
+      .title {
+        img {
+          width: 5em;
+        }
+        p {
+          font-size: 2.8;
+        }
+      }
+      .content {
+        h3,
+        h4 {
+          font-size: 3.2em;
+          margin-top: 20vh;
+        }
+        h4 {
+          margin-top: 0.2em;
+        }
+        p {
+          margin-top: 3em;
+          margin-bottom: 3.5em;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1080px) {
+  .BoardP {
+    .Bhead {
+      min-height: 70vh;
+      .content {
+        h3,
+        h4 {
+          font-size: 2.9em;
+          margin-top: 20vh;
+        }
+        h4 {
+          margin-top: 0.3em;
+        }
+        p {
+          margin-top: 4em;
+          margin-bottom: 4.5em;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .BoardP {
+    max-height: 80vh;
+    .Bcards {
+      .Card {
+        margin-left: 1em;
+        margin-right: 1em;
+      }
+    }
+    .Bhead {
+      .content {
+        h3,
+        h4 {
+          font-size: 2.9em;
+          margin-top: 20vh;
+        }
+        h4 {
+          margin-top: 0.3em;
+        }
+        p {
+          margin-top: 4em;
+          margin-bottom: 4.5em;
+        }
+      }
+      .boardscroll {
+        display: none;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .BoardP {
+    .Bcards {
+      h1 {
+        font-size: 4em;
+      }
+      .cards {
+        overflow: auto;
+        width: 100%;
+        white-space: nowrap;
+        display: block;
+        padding-left: 2em;
+      }
+      .Card {
+        display: inline-flex;
+        flex-direction: column;
+        margin-left: 1em;
+        margin-right: 1em;
+      }
+      .cards::-webkit-scrollbar {
+        display: none;
+      }
+      .Card:hover {
+        transform: translate3D(0, -1px, 0) scale(1);
+        box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.151);
+      }
+    }
+    .Bhead {
+      padding-left: 3em;
+      .content {
+        h3,
+        h4 {
+          font-size: 2.5em;
+          margin-top: 15vh;
+        }
+        h4 {
+          margin-top: 0em;
+        }
+        p {
+          font-size: 1em;
+          margin-top: 3em;
+          margin-bottom: 5em;
+        }
+      }
+      .boardscroll {
+        display: none;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .BoardP {
+    .Bcards {
+      .cards {
+        padding-left: 1em;
+        .Card {
+          width: 15.5em;
+          height: 20em;
+          margin-left: 0.5em;
+          margin-right: 0.5em;
+          img {
+            height: 15em;
+          }
+          .card-body {
+            height: 5em;
+          }
+          .header {
+            .Card-title {
+              font-size: 1.4em;
+            }
+          }
+        }
+      }
+    }
+  }
+}

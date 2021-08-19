@@ -1,0 +1,95 @@
+.ContactUs {
+  margin-top: 4.5em;
+  h1 {
+    font-family: raleway;
+    font-weight: 700;
+    font-size: 5.5em;
+    width: 100%;
+    text-align: center;
+    color: #ffcf00;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #ffcf00;
+  }
+  h1:nth-child(2) {
+    font-size: 3.5em;
+    margin-top: 0.3em;
+    margin-bottom: 0.8em;
+    -webkit-text-fill-color: #ffcf00;
+    -webkit-text-stroke-width: 0px;
+  }
+  p {
+    width: 65%;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-family: raleway;
+    margin-bottom: 3em;
+  }
+
+  #contact {
+    padding: 0.7em 2em;
+    border: 3px solid #0034a5;
+    text-decoration: none;
+    color: #0034a5;
+    font-family: raleway;
+    font-weight: 600;
+    font-size: 1.1em;
+    display: block;
+    width: 9.7em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #contact:hover {
+    background-color: #0034a5;
+    color: white;
+  }
+  .social {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 7em;
+    svg {
+      margin-left: 0.4em;
+      margin-right: 0.4em;
+    }
+    svg:hover {
+      color: #0034a5;
+    }
+  }
+  #copyright {
+    margin-top: 1em;
+    font-size: 0.9em;
+    font-weight: 600;
+    opacity: 0.5;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ContactUs {
+    h1 {
+      font-size: 3em;
+      -webkit-text-stroke-width: 1.5px;
+    }
+    h1:nth-child(2) {
+      font-size: 2.4em;
+      margin-bottom: 1.6em;
+    }
+    p {
+      width: 85%;
+      font-size: 1em;
+      line-height: 1.4;
+      margin-bottom: 6em;
+    }
+
+    #copyright {
+      margin-bottom: 2em;
+    }
+  }
+}

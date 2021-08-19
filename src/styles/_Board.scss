@@ -1,0 +1,172 @@
+.Board {
+  h1 {
+    font-family: raleway;
+    font-weight: 700;
+    font-size: 8em;
+    color: #cecece;
+    transform: translateX(-40px);
+    -webkit-transform: translateX(-40px);
+    padding-bottom: 0.5em;
+    white-space: nowrap;
+  }
+  .cards {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Card {
+    width: 17.5em;
+    height: 22em;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.151);
+    border-radius: 10px;
+    margin-bottom: 4em;
+    margin-left: 2.3em;
+    margin-right: 2.3em;
+    transition: all 0.5s ease;
+    img {
+      width: 100%;
+      height: 16.7em;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      object-fit: cover;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.8em;
+      padding-left: 0.9em;
+      padding-bottom: 0.5em;
+      .social-i {
+        display: flex;
+        justify-content: flex-end;
+        width: 3.5em;
+        a[href="."] {
+          display: none;
+        }
+        #linkedin {
+          margin-left: 0.7em;
+        }
+      }
+      .Card-title {
+        font-family: BNoodle;
+        color: #ffcf00;
+        font-weight: normal;
+        font-size: 1.5em;
+      }
+    }
+    .Card-text {
+      font-family: raleway;
+      color: white;
+      font-size: 1em;
+      font-weight: 500;
+      padding-left: 0.9em;
+    }
+  }
+  .card-body {
+    height: 5.3em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: linear-gradient(#00277d, #00143f);
+  }
+
+  #See {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: raleway;
+    font-weight: 600;
+    border: 3px solid #0034a5;
+    text-decoration: none;
+    color: #0034a5;
+    font-size: 1.2em;
+    padding: 0.6em 2em;
+  }
+  #See:hover {
+    color: white;
+    background-color: #0034a5;
+  }
+  .Card:hover {
+    transform: translate3D(0, -1px, 0) scale(1.09);
+    box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.274);
+  }
+  .cards::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .Board {
+    h1 {
+      span {
+        display: none;
+      }
+    }
+    .Card {
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .Board {
+    h1 {
+      font-size: 4.8em;
+      transform: translateX(-20px);
+      -webkit-transform: translateX(-20px);
+      span {
+        display: none;
+      }
+    }
+    .cards {
+      overflow: auto;
+      width: 100%;
+      white-space: nowrap;
+      display: block;
+      padding-left: 2em;
+    }
+    .Card {
+      display: inline-flex;
+      flex-direction: column;
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+    .cards::-webkit-scrollbar {
+      display: none;
+    }
+    .Card:hover {
+      transform: translate3D(0, -1px, 0) scale(1);
+      box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.151);
+    }
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .Board {
+    h1 {
+      font-size: 4em;
+    }
+    .cards {
+      padding-left: 1em;
+    }
+    .Card {
+      width: 15.5em;
+      height: 20em;
+      img {
+        height: 15em;
+      }
+      .card-body {
+        height: 5em;
+      }
+      .header {
+        .Card-title {
+          font-size: 1.4em;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,250 @@
+.Landing {
+  img {
+    width: 100%;
+  }
+  .titles {
+    margin-left: 3.5em;
+    margin-top: 2em;
+  }
+  .caption1 {
+    display: flex;
+    align-items: center;
+    margin-top: 10vh;
+    hr {
+      width: 4em;
+      height: 2px;
+      margin-right: 0.5em;
+      border: 1.5px solid #0034a5;
+      background-color: #0034a5;
+    }
+    h4 {
+      font-family: raleway;
+      color: #0034a5;
+    }
+  }
+  .caption2 {
+    span {
+      color: #ffcf00;
+    }
+    p {
+      width: 90%;
+      font-family: BNoodle;
+      font-size: 3.3em;
+    }
+  }
+  .caption3 {
+    p {
+      width: 70%;
+      font-family: raleway;
+      font-size: 1.1em;
+      font-weight: 500;
+    }
+  }
+  .btns {
+    margin-top: 4em;
+    margin-bottom: 3em;
+    .Learn {
+      padding: 0.8em 2em;
+      border: 3px solid #0034a5;
+      text-decoration: none;
+      color: #0034a5;
+      font-family: raleway;
+      font-weight: 600;
+      font-size: 1.1em;
+      cursor: pointer;
+    }
+    .Learn:hover {
+      background-color: #0034a5;
+      color: white;
+    }
+    .touch {
+      margin-left: 2em;
+      padding: 0.8em 2em;
+      text-decoration: none;
+      background-color: #ffcf00;
+      border: #ffcf00 3px solid;
+      border-radius: 5px;
+      color: white;
+      font-family: raleway;
+      font-weight: 600;
+      font-size: 1.1em;
+      cursor: pointer;
+    }
+    .touch:hover {
+      background-color: white;
+      color: #ffcf00;
+    }
+  }
+  .social {
+    width: 4em;
+    transform: translate(900%, -50%);
+    display: flex;
+    flex-direction: column;
+    svg:hover {
+      color: #0034a5;
+    }
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .Landing {
+    .social {
+      transform: translate(1000%, -50%);
+    }
+    .caption1 {
+      margin-top: 15vh;
+    }
+    .caption2 {
+      p {
+        font-size: 3.8em;
+      }
+    }
+    .caption3 {
+      p {
+        font-size: 1.3em;
+      }
+    }
+    .btns {
+      .Learn {
+        padding: 0.7em 1.5em;
+        font-size: 1.2em;
+      }
+      .touch {
+        margin-left: 1.2em;
+        padding: 0.7em 1.5em;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1080px) {
+  .Landing {
+    .caption1 {
+      margin-top: 5vh !important;
+      hr {
+        width: 6em;
+      }
+    }
+
+    .caption2 {
+      p {
+        width: 100%;
+        font-size: 3.5em;
+      }
+    }
+    .caption3 {
+      font-size: 1em;
+      margin-bottom: 2em;
+    }
+    .social {
+      transform: translate(700%, -50%);
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .Landing {
+    #Mainimg {
+      display: none;
+    }
+
+    .caption1 {
+      margin-top: 15vh !important;
+      hr {
+        width: 6em;
+      }
+    }
+
+    .caption2 {
+      p {
+        width: 80%;
+        font-size: 3.5em;
+      }
+    }
+    .caption3 {
+      font-size: 1.2em;
+      margin-bottom: 2em;
+    }
+
+    .social {
+      flex-direction: row;
+      margin-left: 3em;
+      transform: translate(0%, -50%);
+      margin-top: 3em;
+      width: 100%;
+      margin-bottom: 4em;
+      .icon {
+        margin-left: 0.7em;
+        margin-right: 0.7em;
+      }
+    }
+
+    .btns {
+      margin-bottom: 5em;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .Landing {
+    #Mainimg {
+      display: none;
+    }
+
+    .caption1 {
+      margin-top: 15vh !important;
+      hr {
+        width: 2em;
+      }
+    }
+    .titles {
+      margin-left: 2em;
+    }
+    .caption2 {
+      p {
+        width: 80%;
+        font-size: 2.5em;
+      }
+    }
+    .caption3 {
+      margin-bottom: 2em;
+    }
+    .btns {
+      .Learn {
+        padding: 0.7em 1.5em;
+        font-size: 1em;
+      }
+      .touch {
+        margin-left: 1em;
+        padding: 0.7em 1.5em;
+      }
+    }
+    .social {
+      flex-direction: row;
+      justify-content: center;
+      transform: translate(0%, -50%);
+      margin-top: 1em;
+      width: 100%;
+      .icon {
+        margin-left: 0.7em;
+        margin-right: 0.7em;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .Landing {
+    .titles {
+      margin-left: 1em;
+    }
+  }
+  .btns {
+    .Learn {
+      padding: 0.7em 1.2em !important;
+      font-size: 1em;
+    }
+    .touch {
+      margin-left: 0.4em !important;
+      padding: 0.7em 1.2em !important;
+    }
+  }
+}
