@@ -7,13 +7,15 @@ import ContactUs from "../components/contact-us";
 
 //assets
 import "../styles/home.scss";
-import "bootstrap/dist/css//bootstrap-grid.css";
+import "bootstrap/dist/css/bootstrap-grid.css";
+import VideoPlayer from "../components/video-player";
 
 const HomePage = () => {
   return (
     <div>
       <Landing />
       <Story />
+      <VideoPlayer />
       <ContactUs />
     </div>
   );
