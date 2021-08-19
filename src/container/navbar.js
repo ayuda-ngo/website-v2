@@ -48,7 +48,7 @@ const NavBar = () => {
         <div className="menu-links">
           <div className="menu-link">
             <Link
-              to="Story"
+              to="#story"
               smooth={true}
               duration={1000}
               onClick={handleClick}

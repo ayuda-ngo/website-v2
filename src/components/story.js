@@ -4,7 +4,7 @@ import storyImg1 from "../images/story/story-1.png";
 import storyImg2 from "../images/story/story-2.png";
 
 const Story = () => (
-  <div className="Story">
+  <div className="Story" id="story">
     <br />
     <br />
     <h1>OUR STORY</h1>
