@@ -4,6 +4,7 @@ import y2020 from "./board-data-2020";
 import y2019 from "./board-data-2019";
 import y2018 from "./board-data-2018";
 import y2017 from "./board-data-2017";
+import y2013 from "./board-data-2013";
 
 // costants
 const data = {
@@ -21,6 +22,9 @@ const data = {
 
   /* Board Members 2017-2018 */
   y2017,
+
+  /* Board Members 2013-2014 */
+  y2013,
 };
 
 export default data;

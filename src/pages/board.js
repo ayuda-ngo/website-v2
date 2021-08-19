@@ -55,7 +55,7 @@ const generateBoardSection = (year) => (
 );
 
 const BoardMemberPage = () => {
-  const { y2021, y2020, y2019, y2018, y2017 } = data;
+  const { y2021, y2020, y2019, y2018, y2017, y2013 } = data;
   return (
     <div className="BoardP">
       <Helmet>
@@ -94,6 +94,7 @@ const BoardMemberPage = () => {
       {generateBoardSection(y2019)}
       {generateBoardSection(y2018)}
       {generateBoardSection(y2017)}
+      {generateBoardSection(y2013)}
     </div>
   );
 };
