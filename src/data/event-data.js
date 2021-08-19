@@ -1,12 +1,12 @@
-import christmas from "./Images/Events/christmas.jpg";
-import pongal from "./Images/Events/pongal.jpg";
-import social from "./Images/Events/social.jpg";
-import peace from "./Images/Events/peace.jpg";
-import talk from "./Images/Events/mind-talks.jpg";
-import craft from "./Images/Events/craftsman.jpg";
-import fete from "./Images/Events/Feté.jpg";
-import dream from "./Images/Events/Dreams.jpg";
-import bloom from "./Images/Events/Life-Bloom.jpg";
+import christmas from "../images/events/christmas.jpg";
+import pongal from "../images/events/pongal.jpg";
+import social from "../images/events/social.jpg";
+import peace from "../images/events/peace.jpg";
+import talk from "../images/events/mind-talks.jpg";
+import craft from "../images/events/craftsman.jpg";
+import fete from "../images/events/Feté.jpg";
+import dream from "../images/events/Dreams.jpg";
+import bloom from "../images/events/Life-Bloom.jpg";
 
 const data = [
   {
