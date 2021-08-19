@@ -1,14 +1,14 @@
 // assets
-import pic20181 from "../images/board/2018/pic2018-1.png";
-import pic20182 from "../images/board/2018/pic2018-2.png";
-import pic20183 from "../images/board/2018/pic2018-3.png";
-import pic20184 from "../images/board/2018/pic2018-4.png";
-import pic20185 from "../images/board/2018/pic2018-5.png";
-import pic20186 from "../images/board/2018/pic2018-6.png";
-import pic20187 from "../images/board/2018/pic2018-7.png";
-import pic20188 from "../images/board/2018/pic2018-8.png";
-import pic20189 from "../images/board/2018/pic2018-9.png";
-import pic201810 from "../images/board/2018/pic2018-10.png";
+import pic20181 from "../../images/board/2018/pic2018-1.png";
+import pic20182 from "../../images/board/2018/pic2018-2.png";
+import pic20183 from "../../images/board/2018/pic2018-3.png";
+import pic20184 from "../../images/board/2018/pic2018-4.png";
+import pic20185 from "../../images/board/2018/pic2018-5.png";
+import pic20186 from "../../images/board/2018/pic2018-6.png";
+import pic20187 from "../../images/board/2018/pic2018-7.png";
+import pic20188 from "../../images/board/2018/pic2018-8.png";
+import pic20189 from "../../images/board/2018/pic2018-9.png";
+import pic201810 from "../../images/board/2018/pic2018-10.png";
 
 // data
 const y2018 = {

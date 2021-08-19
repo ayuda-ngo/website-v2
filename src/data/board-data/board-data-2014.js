@@ -1,15 +1,15 @@
 // assets
-import pic20141 from "../images/board/2014/pic2014-1.jpg";
-import pic20142 from "../images/board/2014/pic2014-2.jpg";
-// import pic20143 from "../images/board/2014/pic2014-3.jpg";
-import pic20144 from "../images/board/2014/pic2014-4.jpg";
-// import pic20145 from "../images/board/2014/pic2014-5.jpg";
-import pic20146 from "../images/board/2014/pic2014-6.jpg";
-// import pic20147 from "../images/board/2014/pic2014-7.jpg";
-// import pic20148 from "../images/board/2014/pic2014-8.jpg";
-import pic20149 from "../images/board/2014/pic2014-9.jpg";
-import pic201410 from "../images/board/2014/pic2014-10.jpg";
-// import pic201411 from "../images/board/2014/pic2014-11.jpg";
+import pic20141 from "../../images/board/2014/pic2014-1.jpg";
+import pic20142 from "../../images/board/2014/pic2014-2.jpg";
+// import pic20143 from "../../images/board/2014/pic2014-3.jpg";
+import pic20144 from "../../images/board/2014/pic2014-4.jpg";
+// import pic20145 from "../../images/board/2014/pic2014-5.jpg";
+import pic20146 from "../../images/board/2014/pic2014-6.jpg";
+// import pic20147 from "../../images/board/2014/pic2014-7.jpg";
+// import pic20148 from "../../images/board/2014/pic2014-8.jpg";
+import pic20149 from "../../images/board/2014/pic2014-9.jpg";
+import pic201410 from "../../images/board/2014/pic2014-10.jpg";
+// import pic201411 from "../../images/board/2014/pic2014-11.jpg";
 
 // data
 const y2014 = {

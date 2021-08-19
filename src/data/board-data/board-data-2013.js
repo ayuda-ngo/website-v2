@@ -1,10 +1,10 @@
 // assets
-import pic20131 from "../images/board/2013/pic2013-1.jpg";
-import pic20132 from "../images/board/2013/pic2013-2.jpg";
-import pic20133 from "../images/board/2013/pic2013-3.jpg";
-import pic20134 from "../images/board/2013/pic2013-4.jpg";
-import pic20135 from "../images/board/2013/pic2013-5.jpg";
-import pic20136 from "../images/board/2013/pic2013-6.jpg";
+import pic20131 from "../../images/board/2013/pic2013-1.jpg";
+import pic20132 from "../../images/board/2013/pic2013-2.jpg";
+import pic20133 from "../../images/board/2013/pic2013-3.jpg";
+import pic20134 from "../../images/board/2013/pic2013-4.jpg";
+import pic20135 from "../../images/board/2013/pic2013-5.jpg";
+import pic20136 from "../../images/board/2013/pic2013-6.jpg";
 
 // data
 const y2013 = {

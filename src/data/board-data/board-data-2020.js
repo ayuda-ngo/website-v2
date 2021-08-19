@@ -1,15 +1,15 @@
 // assets
-import pic20201 from "../images/board/2020/pic2020-1.jpg";
-import pic20202 from "../images/board/2020/pic2020-2.jpg";
-import pic20203 from "../images/board/2020/pic2020-3.jpg";
-import pic20204 from "../images/board/2020/pic2020-4.jpg";
-import pic20205 from "../images/board/2020/pic2020-5.jpg";
-import pic20206 from "../images/board/2020/pic2020-6.jpg";
-import pic20207 from "../images/board/2020/pic2020-7.jpg";
-import pic20208 from "../images/board/2020/pic2020-8.jpg";
-import pic20209 from "../images/board/2020/pic2020-9.jpg";
-import pic202010 from "../images/board/2020/pic2020-10.jpg";
-import pic202011 from "../images/board/2020/pic2020-11.jpg";
+import pic20201 from "../../images/board/2020/pic2020-1.jpg";
+import pic20202 from "../../images/board/2020/pic2020-2.jpg";
+import pic20203 from "../../images/board/2020/pic2020-3.jpg";
+import pic20204 from "../../images/board/2020/pic2020-4.jpg";
+import pic20205 from "../../images/board/2020/pic2020-5.jpg";
+import pic20206 from "../../images/board/2020/pic2020-6.jpg";
+import pic20207 from "../../images/board/2020/pic2020-7.jpg";
+import pic20208 from "../../images/board/2020/pic2020-8.jpg";
+import pic20209 from "../../images/board/2020/pic2020-9.jpg";
+import pic202010 from "../../images/board/2020/pic2020-10.jpg";
+import pic202011 from "../../images/board/2020/pic2020-11.jpg";
 
 // data
 const y2020 = {
