@@ -16,7 +16,7 @@ const GalleryPage = () => {
       <div className="Ghead row">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>NGO Ayuda | Gallery</title>
+          <title>Ayuda NGO | Gallery</title>
           <link rel="canonical" href="https://ngoayuda.org/gallery" />
         </Helmet>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 contoverflow">

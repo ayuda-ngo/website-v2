@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 // project imports
 import Carousel from "react-spring-3d-carousel";
@@ -111,10 +111,10 @@ const Initiatives = () => {
         />
       </div>
 
-      <div className="row arrows">
-        <ArrowLeftSquareFill size="40" onClick={onLeft} className="leftarr" />
+      <div className="controls arrows">
+        <ArrowLeftSquareFill size="35" onClick={onLeft} className="leftarr" />
         <ArrowRightSquareFill
-          size="40"
+          size="35"
           onClick={onRight}
           className="rightarr"
         />

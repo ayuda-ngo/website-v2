@@ -126,7 +126,7 @@ const Events = () => {
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-6">
           <div className="EventImages" ref={(el) => (imgref = el)}>
-            {evndata.map((data) => (
+            {data.map((data) => (
               <img src={data.img} alt={data.title} key={data.id} />
             ))}
           </div>
@@ -145,7 +145,7 @@ const Events = () => {
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5">
           <div className="descriptions" ref={(el) => (desref = el)}>
-            {evndata.map((data) => (
+            {data.map((data) => (
               <div className="eventdes" key={data.id}>
                 <p className="evhead">{data.title}</p>
                 <p className="evdesc">{data.desc} </p>

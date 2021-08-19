@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "gatsby";
 
-const GallerySection = () => (
+const Gallery = () => (
   <div className="Gallery">
     <h1>GALLERY</h1>
     <p>
@@ -15,4 +16,4 @@ const GallerySection = () => (
   </div>
 );
 
-export default GallerySection;
+export default Gallery;

@@ -19,11 +19,10 @@
 @import "./Story";
 @import "./Video";
 @import "./Events";
-// @import "./Initiatives";
-// @import "./Blogspot";
-// @import "./Board";
-
-// @import "./Gallery";
+@import "./Initiatives";
+@import "./Blogspot";
+@import "./Board";
+@import "./Gallery";
 @import "./Contact";
 
 * {
@@ -54,4 +53,20 @@ img {
   html {
     height: 100%;
   }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background: #0034a5;
 }

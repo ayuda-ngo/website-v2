@@ -10,7 +10,7 @@
     white-space: nowrap;
   }
   .cards {
-    width: 85%;
+    width: 75%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -75,15 +75,18 @@
   }
 
   #See {
-    margin-left: auto;
-    margin-right: auto;
-    font-family: raleway;
-    font-weight: 600;
+    padding: 0.6em 2em;
     border: 3px solid #0034a5;
     text-decoration: none;
     color: #0034a5;
-    font-size: 1.2em;
-    padding: 0.6em 2em;
+    font-family: raleway;
+    font-weight: 600;
+    font-size: 1.1em;
+    display: block;
+    width: 9.8em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   #See:hover {
     color: white;
