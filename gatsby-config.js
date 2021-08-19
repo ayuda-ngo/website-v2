@@ -6,6 +6,13 @@ module.exports = {
   plugins: [
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
+    // {
+    //   resolve: "gatsby-source-medium-feed",
+    //   options: {
+    //     userName: "@...", // Medium user name
+    //     name: "MediumFeed", // GraphQL query AllMediumFeed
+    //   },
+    // },
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {

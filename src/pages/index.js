@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 // project import
 import Landing from "../components/landing";
@@ -14,7 +15,6 @@ import ContactUs from "../components/contact-us";
 //assets
 import "../styles/home.scss";
 import "bootstrap/dist/css/bootstrap-grid.css";
-import { Helmet } from "react-helmet";
 
 const HomePage = () => {
   return (

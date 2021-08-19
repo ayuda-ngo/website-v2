@@ -61,7 +61,7 @@ const BoardMemberPage = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Ayuda NGO | Board</title>
-        <link rel="canonical" href="https://ngoayuda.org/board" />
+        <link rel="canonical" href="https://ngoayuda.org/boards" />
       </Helmet>
 
       <div className="Bhead row">

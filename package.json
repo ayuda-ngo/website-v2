@@ -8,9 +8,9 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
+    "develop": "cross-env GATSBY_GRAPHQL_IDE=playground gatsby develop",
     "format": "prettier --write src/**/*.{js,scss}",
-    "start": "gatsby develop",
+    "start": "set GATSBY_GRAPHQL_IDE=playground && gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
@@ -29,6 +29,7 @@
     "gatsby-plugin-sharp": "^3.12.0",
     "gatsby-plugin-sitemap": "^4.8.0",
     "gatsby-source-filesystem": "^3.12.0",
+    "gatsby-source-medium-feed": "^1.0.6",
     "gatsby-transformer-sharp": "^3.12.0",
     "gsap": "^3.7.1",
     "react": "^17.0.1",
@@ -39,5 +40,8 @@
     "react-spring": "^8.0.27",
     "react-spring-3d-carousel": "^1.2.1",
     "sass": "^1.38.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }
