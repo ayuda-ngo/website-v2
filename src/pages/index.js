@@ -1,11 +1,10 @@
-import React from "react";
-import { Helmet } from "react-helmet";
+import * as React from "react";
 
 // project import
 import Landing from "../components/landing";
 import Story from "../components/story";
 import VideoPlayer from "../components/video-player";
-import Initiatives from "../components/initiatives";
+// import Initiatives from "../components/initiatives";
 import Gallery from "../components/gallery";
 import Events from "../components/events";
 import Blogs from "../components/blogs";
@@ -18,21 +17,17 @@ import "bootstrap/dist/css/bootstrap-grid.css";
 
 const HomePage = () => {
   return (
-    <>
-      <Helmet>
-        <title>Ayuda NGO</title>
-        <link rel="canonical" href="https://ngoayuda.org" />
-      </Helmet>
+    <div>
       <Landing />
       <Story />
       <VideoPlayer />
-      <Initiatives />
+      {/* <Initiatives /> */}
       <Gallery />
       <Events />
       <Blogs />
       <Board />
       <ContactUs />
-    </>
+    </div>
   );
 };
 

@@ -16,6 +16,8 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@babel/runtime": "^7.15.3",
+    "@popperjs/core": "^2.9.3",
     "@styled-icons/bootstrap": "^10.34.0",
     "@styled-icons/boxicons-logos": "^10.37.0",
     "bootstrap": "^5.1.0",
@@ -37,9 +39,10 @@
     "react-helmet": "^6.1.0",
     "react-player": "^2.9.0",
     "react-scroll": "^1.8.3",
-    "react-spring": "^8.0.27",
+    "react-spring": "^9.2.4",
     "react-spring-3d-carousel": "^1.2.1",
-    "sass": "^1.38.0"
+    "sass": "^1.38.0",
+    "styled-components": "^5.3.0"
   },
   "devDependencies": {
     "cross-env": "^7.0.3"

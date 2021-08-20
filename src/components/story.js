@@ -1,5 +1,6 @@
-import React from "react";
+import * as React from "react";
 
+// assets
 import storyImg1 from "../images/story/story-1.png";
 import storyImg2 from "../images/story/story-2.png";
 

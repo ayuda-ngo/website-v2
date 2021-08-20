@@ -1,19 +1,19 @@
-import React, { useState } from "react";
+import * as React from "react";
 import { Link } from "react-scroll";
 
 // project imports
-import { anim, revanim } from "../utils/anime";
+// import { anim, revanim } from "../utils/anime";
 
 // assets
 import logo from "../images/logo-head.png";
 
 const NavBar = () => {
-  const [toggle, settoggle] = useState(false);
+  const [toggle, settoggle] = React.useState(false);
 
   const handleClick = () => {
     settoggle(!toggle);
-    if (toggle === false) anim();
-    if (toggle === true) revanim();
+    // if (toggle === false) anim();
+    // if (toggle === true) revanim();
   };
 
   return (

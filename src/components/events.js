@@ -1,5 +1,4 @@
-// import { ArrowLeft, ArrowRight } from '@styled-icons/foundation'
-import React, { useEffect, useRef, useState } from "react";
+import * as React from "react";
 import { TweenLite, Power3 } from "gsap";
 
 // project import
@@ -12,11 +11,12 @@ import {
 } from "@styled-icons/bootstrap";
 
 const Events = () => {
-  let imgref = useRef(null);
-  let desref = useRef(null);
-  let titleref = useRef(null);
-  const [mul, setmul] = useState(0);
-  useEffect(() => {
+  let imgref = React.useRef(null);
+  let desref = React.useRef(null);
+  let titleref = React.useRef(null);
+
+  const [mul, setmul] = React.useState(0);
+  React.useEffect(() => {
     TweenLite.to(titleref.children[0], 0, {
       opacity: 1,
     });

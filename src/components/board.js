@@ -1,8 +1,10 @@
-import React from "react";
+import * as React from "react";
 import { Link } from "gatsby";
 
 // project imports
 import data from "../data/board-data/board-data-2021";
+
+// assets
 import { Instagram, Linkedin } from "@styled-icons/boxicons-logos";
 
 const Board = () => (

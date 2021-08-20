@@ -1,6 +1,6 @@
 import { gsap, Power4 } from "gsap";
 var tl = gsap.timeline();
-export function anim() {
+const anim = () => {
   tl.paused(true);
   tl.to(".menu", {
     left: 0,
@@ -18,8 +18,9 @@ export function anim() {
     "-=1"
   );
   tl.play();
-}
-export function revanim() {
+};
+
+const revanim = () => {
   tl.paused(true);
   tl.to(".menu", { left: "-100%" });
   tl.to(
@@ -32,4 +33,6 @@ export function revanim() {
     "-=1"
   );
   tl.play();
-}
+};
+
+export default { anim, revanim };

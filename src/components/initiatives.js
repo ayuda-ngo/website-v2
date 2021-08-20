@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import * as React from "react";
 
 // project imports
 import Carousel from "react-spring-3d-carousel";
@@ -10,13 +10,14 @@ import gyaan from "../images/initiatives/Gyaan.png";
 import nirmaan from "../images/initiatives/Nirmaan.png";
 import gogreen from "../images/initiatives/Go-Green.png";
 import muskaan from "../images/initiatives/Muskaan.png";
+
 import {
   ArrowLeftSquareFill,
   ArrowRightSquareFill,
 } from "@styled-icons/bootstrap";
 
 const Initiatives = () => {
-  const [card, setCard] = useState({
+  const [card, setCard] = React.useState({
     goToSlide: 0,
     offsetRadius: 2,
     showNavigation: true,

@@ -24,7 +24,7 @@
 
     .Card {
       width: 17.5em;
-      height: 22em;
+      height: 24em;
       display: flex;
       flex-direction: column;
       box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.151);
@@ -35,7 +35,7 @@
       transition: all 0.5s ease;
       img {
         width: 100%;
-        height: 16.7em;
+        height: 16.8em;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         object-fit: cover;
@@ -44,7 +44,7 @@
         display: flex;
         justify-content: space-between;
         padding: 0.8em;
-        padding-left: 0.8rem;
+        padding-top: 0;
         padding-bottom: 0.5em;
         .social-i {
           display: flex;
@@ -69,6 +69,7 @@
         font-size: 1rem;
         font-weight: 500;
         padding-left: 0.9em;
+        margin-bottom: 0;
         margin-block-start: 0;
         margin-block-end: 0;
       }
