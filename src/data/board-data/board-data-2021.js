@@ -78,7 +78,7 @@ const y2021 = {
       name: "Shyam R",
       designation: "External Events Head",
       instagram: "https://instagram.com/shyam_16_?igshid=1agwlnxek19ns",
-      linkedin: ".",
+      linkedin: "https://www.linkedin.com/in/shyam-r-845486196",
     },
     {
       id: "9",

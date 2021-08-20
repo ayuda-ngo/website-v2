@@ -1,8 +1,9 @@
 import * as React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 
 // assets
-import storyImg1 from "../images/story/story-1.png";
-import storyImg2 from "../images/story/story-2.png";
+const storyImg1 = "../images/story/story-1.png";
+const storyImg2 = "../images/story/story-2.png";
 
 const Story = () => (
   <div className="Story" id="story">
@@ -12,7 +13,7 @@ const Story = () => (
     <div className="container">
       <div className="row">
         <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-          <img src={storyImg1} alt="Story1" />
+          <StaticImage src={storyImg1} alt="Story1" placeholder="blurred" />
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
           <div>
@@ -43,7 +44,12 @@ const Story = () => (
           </p>
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 order1">
-          <img src={storyImg2} alt="Story2" id="story2" />
+          <StaticImage
+            src={storyImg2}
+            alt="Story2"
+            id="story2"
+            placeholder="blurred"
+          />
         </div>
       </div>
     </div>

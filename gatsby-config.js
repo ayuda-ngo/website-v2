@@ -1,11 +1,18 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://www.ngoayuda.org",
     title: "website-v2",
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-scroll-indicator`,
+      options: {
+        // Configure your indicator bar color here
+        color: "linear-gradient(to right, #0034a5, #001C59)",
+        height: "4px",
+      },
+    },
     "gatsby-plugin-sass",
-    "gatsby-plugin-image",
     // {
     //   resolve: "gatsby-source-medium-feed",
     //   options: {
@@ -27,8 +34,6 @@ module.exports = {
         icon: "src/images/icon.png",
       },
     },
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -37,5 +42,8 @@ module.exports = {
       },
       __key: "images",
     },
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
   ],
 };

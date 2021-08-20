@@ -116,18 +116,18 @@ const Events = () => {
       <div className="row">
         <div className="col-0 col-sm-0 col-md-0 col-lg-1">
           <div className="sidetitles" ref={(el) => (titleref = el)}>
-            {data.map((data) => (
-              <span id="Sidetitle" key={data.id}>
+            {data.map(({ id, sidetitle }) => (
+              <span key={id} id="Sidetitle">
                 <hr />
-                {data.sidetitle}
+                {sidetitle}
               </span>
             ))}
           </div>
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-6">
           <div className="EventImages" ref={(el) => (imgref = el)}>
-            {data.map((data) => (
-              <img src={data.img} alt={data.title} key={data.id} />
+            {data.map(({ id, img, title }) => (
+              <img key={id} src={img} alt={title} placeholder="blurred" />
             ))}
           </div>
           <div className="controls">
@@ -145,10 +145,11 @@ const Events = () => {
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-5">
           <div className="descriptions" ref={(el) => (desref = el)}>
-            {data.map((data) => (
-              <div className="eventdes" key={data.id}>
-                <p className="evhead">{data.title}</p>
-                <p className="evdesc">{data.desc} </p>
+            {data.map(({ id, title, desc, img }) => (
+              <div key={id} className="eventdes">
+                <p className="evhead">{title}</p>
+                <p className="evdesc">{desc} </p>
+                <pre>{img}</pre>
               </div>
             ))}
             <div className="texture"></div>

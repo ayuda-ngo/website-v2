@@ -84,9 +84,6 @@ const BoardMemberPage = () => {
             </Scrolldown>
           </div>
         </div>
-        <div className="col-0 col-sm-0 col-md-0 col-lg-6 col-xl-6 boardscroll">
-          <div className="roll"></div>
-        </div>
       </div>
 
       {generateBoardSection(y2021)}

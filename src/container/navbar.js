@@ -1,11 +1,12 @@
 import * as React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "react-scroll";
 
 // project imports
 import anime from "../utils/anime";
 
 // assets
-import logo from "../images/logo-head.png";
+const logo = "../images/logo-head.png";
 
 const NavBar = () => {
   const [toggle, settoggle] = React.useState(false);
@@ -42,7 +43,7 @@ const NavBar = () => {
             />
           </svg>
         </button>
-        <img src={logo} alt="logo" />
+        <StaticImage src={logo} alt="logo" placeholder="blurred" />
         <p>Ayuda</p>
       </div>
       <div className={`menu ${toggle ? "menu-active" : ""}`}>

@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Link } from "react-scroll";
+import { StaticImage } from "gatsby-plugin-image";
 
 // project import
 import NavBar from "../container/navbar";
@@ -11,7 +12,8 @@ import {
   Linkedin,
   Medium,
 } from "@styled-icons/boxicons-logos";
-import mainImg from "../images/landing-img.png";
+
+const mainImg = "../images/landing-img.png";
 
 const Landing = () => {
   return (
@@ -50,7 +52,12 @@ const Landing = () => {
           </div>
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-          <img src={mainImg} alt="Mainimg" id="Mainimg" />
+          <StaticImage
+            id="Mainimg"
+            src={mainImg}
+            alt="Mainimg"
+            placeholder="blurred"
+          />
           <div className="social">
             <a
               href="https://www.facebook.com/ngoayuda/"

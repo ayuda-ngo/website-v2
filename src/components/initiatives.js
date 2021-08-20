@@ -2,7 +2,6 @@ import * as React from "react";
 
 // project imports
 import loadable from "@loadable/component";
-const Carousel = loadable(() => import("react-spring-3d-carousel"));
 // assets
 import sudhaar from "../images/initiatives/Sudhaar.png";
 import gyaan from "../images/initiatives/Gyaan.png";
@@ -14,6 +13,8 @@ import {
   ArrowLeftSquareFill,
   ArrowRightSquareFill,
 } from "@styled-icons/bootstrap";
+
+const Carousel = loadable(() => import("react-spring-3d-carousel"));
 
 const Initiatives = () => {
   const [card, setCard] = React.useState({

@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Helmet } from "react-helmet";
 
 // project import
 import Landing from "../components/landing";
@@ -11,9 +12,16 @@ import Blogs from "../components/blogs";
 import Board from "../components/board";
 import ContactUs from "../components/contact-us";
 
+import "../styles/home.scss";
+
 const HomePage = () => {
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Ayuda NGO</title>
+        <link rel="canonical" href="https://ngoayuda.org" />
+      </Helmet>
       <Landing />
       <Story />
       <VideoPlayer />
