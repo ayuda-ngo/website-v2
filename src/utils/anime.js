@@ -1,5 +1,7 @@
 import { gsap, Power4 } from "gsap";
+
 var tl = gsap.timeline();
+
 const anim = () => {
   tl.paused(true);
   tl.to(".menu", {
@@ -35,4 +37,6 @@ const revanim = () => {
   tl.play();
 };
 
-export default { anim, revanim };
+const anime = { anim, revanim };
+
+export default anime;

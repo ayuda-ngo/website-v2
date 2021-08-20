@@ -1,12 +1,14 @@
 .Board {
   h1 {
-    // font-family: raleway;
-    font-size: 18px;
+    font-family: raleway;
+    white-space: nowrap;
+    font-weight: 700;
+    font-size: 8em;
+    opacity: 0.44;
+    padding-bottom: 0.4em;
     color: #cecece;
     transform: translateX(-40px);
     -webkit-transform: translateX(-40px);
-    padding-bottom: 0.5em;
-    white-space: nowrap;
   }
   .cards {
     width: 75%;

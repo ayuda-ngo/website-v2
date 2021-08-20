@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.15.3",
+    "@loadable/component": "^5.15.0",
     "@popperjs/core": "^2.9.3",
     "@styled-icons/bootstrap": "^10.34.0",
     "@styled-icons/boxicons-logos": "^10.37.0",

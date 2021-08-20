@@ -1,9 +1,8 @@
 import * as React from "react";
 
 // project imports
-import Carousel from "react-spring-3d-carousel";
-import { config } from "react-spring";
-
+import loadable from "@loadable/component";
+const Carousel = loadable(() => import("react-spring-3d-carousel"));
 // assets
 import sudhaar from "../images/initiatives/Sudhaar.png";
 import gyaan from "../images/initiatives/Gyaan.png";
@@ -21,7 +20,10 @@ const Initiatives = () => {
     goToSlide: 0,
     offsetRadius: 2,
     showNavigation: true,
-    config: config.slow,
+    config: {
+      tension: 280,
+      friction: 60,
+    },
   });
 
   const InCards = [
