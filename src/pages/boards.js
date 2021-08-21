@@ -1,7 +1,8 @@
 import React from "react";
-import { Link as Scrolldown } from "react-scroll";
 import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 import { Helmet } from "react-helmet";
+import { Link as Scrolldown } from "react-scroll";
 
 // project imports
 import data from "../data/board-data";
@@ -9,7 +10,6 @@ import data from "../data/board-data";
 // assets
 import "../styles/board-page.scss";
 import { Instagram, Linkedin } from "@styled-icons/boxicons-logos";
-import { StaticImage } from "gatsby-plugin-image";
 
 const logo = "../images/logo-head.png";
 
@@ -20,7 +20,12 @@ const generateBoardSection = (year) => (
     <div className="cards">
       {year.data.map((data) => (
         <div className="Card" key={data.id}>
-          <img className="Card-top" src={data.img} alt={data.name} />
+          <img
+            className="Card-top"
+            src={data.img}
+            alt={data.name}
+            loading="lazy"
+          />
           <div className="card-body">
             <div className="header">
               <h5 className="Card-title">{data.name}</h5>
@@ -57,7 +62,9 @@ const generateBoardSection = (year) => (
 );
 
 const BoardMemberPage = () => {
-  const { y2021, y2020, y2019, y2018, y2017, y2015, y2014, y2013 } = data;
+  const { y2021, y2020, y2019, y2018, y2017, y2016, y2015, y2014, y2013 } =
+    data;
+
   return (
     <div className="BoardP">
       <Helmet>
@@ -93,6 +100,7 @@ const BoardMemberPage = () => {
       {generateBoardSection(y2019)}
       {generateBoardSection(y2018)}
       {generateBoardSection(y2017)}
+      {generateBoardSection(y2016)}
       {generateBoardSection(y2015)}
       {generateBoardSection(y2014)}
       {generateBoardSection(y2013)}
