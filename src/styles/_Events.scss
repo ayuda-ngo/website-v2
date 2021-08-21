@@ -60,14 +60,11 @@
       z-index: -1;
     }
     .eventdes {
-      width: 70%;
+      width: 500px;
       position: absolute;
       margin-left: 4em;
       margin-top: 7em;
       opacity: 0;
-      // &:nth-child(1){
-      //     opacity: 1;
-      // }
       .evhead {
         font-family: Capriola;
         color: #ffcf00;
@@ -76,6 +73,9 @@
       }
       .evdesc {
         font-family: raleway;
+        white-space: pre-wrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
         font-weight: 500;
         font-size: 0.9em;
         line-height: 1.9;
@@ -167,6 +167,7 @@
       display: none;
     }
     .descriptions {
+      display: none;
       margin-bottom: 15em;
       .texture {
         display: none;

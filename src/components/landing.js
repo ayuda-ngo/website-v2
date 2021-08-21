@@ -48,12 +48,9 @@ const Landing = () => {
           </div>
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-          <StaticImage
-            id="Mainimg"
-            src={mainImg}
-            alt="Mainimg"
-            placeholder="blurred"
-          />
+          <div id="Mainimg">
+            <StaticImage src={mainImg} alt="Mainimg" placeholder="blurred" />
+          </div>
           <div className="social">
             <a
               href="https://www.facebook.com/ngoayuda/"
