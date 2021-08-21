@@ -24,6 +24,7 @@ const HomePage = () => {
         <link rel="canonical" href="https://ngoayuda.org" />
       </Helmet>
       <NavBar />
+      <div id="navbar-fill" style={{ height: "55px", width: "100vw" }} />
       <Landing />
       <Story />
       <VideoPlayer />
