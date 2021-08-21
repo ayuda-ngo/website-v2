@@ -1,10 +1,10 @@
 // assets
-// import pic20161 from "../../images/board/2016/pic2016-1.jpg";
-// import pic20162 from "../../images/board/2016/pic2016-2.jpg";
-// import pic20163 from "../../images/board/2016/pic2016-3.jpg";
-// // import pic20164 from "../../images/board/2016/pic2016-4.jpg";
-// import pic20165 from "../../images/board/2016/pic2016-5.jpg";
-// import pic20166 from "../../images/board/2016/pic2016-6.jpg";
+import pic20161 from "../../images/board/2016/pic2016-1.jpg";
+import pic20162 from "../../images/board/2016/pic2016-2.jpg";
+import pic20163 from "../../images/board/2016/pic2016-3.jpg";
+import pic20164 from "../../images/board/2016/pic2016-4.jpg";
+import pic20165 from "../../images/board/2016/pic2016-5.jpg";
+import pic20166 from "../../images/board/2016/pic2016-6.jpg";
 // import pic20167 from "../../images/board/2016/pic2016-7.jpg";
 // import pic20168 from "../../images/board/2016/pic2016-8.jpg";
 // import pic20169 from "../../images/board/2016/pic2016-9.jpg";
@@ -17,7 +17,7 @@ const y2016 = {
   data: [
     {
       id: "1",
-      // img: pic20161,
+      img: pic20161,
       name: "Lakshay Jain",
       designation: "Chairperson",
       instagram: ".",
@@ -25,7 +25,7 @@ const y2016 = {
     },
     {
       id: "2",
-      // img: pic20162,
+      img: pic20162,
       name: "Zishan Ahmad",
       designation: "General Secretary",
       instagram: ".",
@@ -33,7 +33,7 @@ const y2016 = {
     },
     {
       id: "3",
-      // img: pic20163,
+      img: pic20163,
       name: "Bharat Damodaran",
       designation: "Vice Chairperson",
       instagram: ".",
@@ -41,7 +41,7 @@ const y2016 = {
     },
     {
       id: "4",
-      // img: pic20164,
+      img: pic20164,
       name: "Naman Sagar",
       designation: "Internal Events Head",
       instagram: ".",
@@ -49,7 +49,7 @@ const y2016 = {
     },
     {
       id: "5",
-      // img: pic20165,
+      img: pic20165,
       name: "Yarin Sachdeva",
       designation: "Treasurer",
       instagram: ".",
@@ -57,7 +57,7 @@ const y2016 = {
     },
     {
       id: "6",
-      // img: pic20166,
+      img: pic20166,
       name: "Ashutosh Mishra",
       designation: "Public Relations",
       instagram: ".",
