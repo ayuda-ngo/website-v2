@@ -81,7 +81,7 @@ const BoardMemberPage = () => {
           </Link>
           <div className="content">
             <h3>Board Members</h3>
-            <h4>2016-2021</h4>
+            <h4>2013-2021</h4>
             <p>
               “It is so hard to say goodbye to <span> strangers</span> who
               turned into <span> your family.</span> We miss your presence in

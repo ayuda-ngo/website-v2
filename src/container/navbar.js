@@ -4,12 +4,15 @@ import { Link } from "react-scroll";
 
 // project imports
 import anime from "../utils/anime";
+import { useScrollPosition } from "../hooks/useScrollPosition";
 
 // assets
 const logo = "../images/logo-head.png";
 
 const NavBar = () => {
   const [toggle, settoggle] = React.useState(false);
+  const [showNavBar, setShowNavBar] = React.useState(false);
+
   const { anim, revanim } = anime;
 
   const handleClick = () => {
@@ -18,9 +21,23 @@ const NavBar = () => {
     if (toggle === true) revanim();
   };
 
+  useScrollPosition(
+    ({ currPos }) => {
+      const isShow = currPos.y < 0;
+      if (isShow !== showNavBar) setShowNavBar(isShow);
+    },
+    [showNavBar]
+  );
+
   return (
     <nav>
-      <div className="Navbar">
+      <div
+        className="Navbar"
+        style={{
+          backgroundColor: showNavBar ? "white" : "",
+          width: showNavBar ? "100vw" : "fit-content",
+        }}
+      >
         <button
           className={`hamburger ${toggle ? "opened" : ""}`}
           onClick={handleClick}

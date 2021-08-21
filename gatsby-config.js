@@ -9,7 +9,7 @@ module.exports = {
       options: {
         // Configure your indicator bar color here
         color: "linear-gradient(to right, #0034a5, #001C59)",
-        height: "4px",
+        height: "6px",
       },
     },
     "gatsby-plugin-sass",
