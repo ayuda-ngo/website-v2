@@ -13,6 +13,7 @@ import Board from "../components/board";
 import ContactUs from "../components/contact-us";
 
 import "../styles/home.scss";
+import NavBar from "../container/navbar";
 
 const HomePage = () => {
   return (
@@ -22,6 +23,7 @@ const HomePage = () => {
         <title>Ayuda NGO</title>
         <link rel="canonical" href="https://ngoayuda.org" />
       </Helmet>
+      <NavBar />
       <Landing />
       <Story />
       <VideoPlayer />

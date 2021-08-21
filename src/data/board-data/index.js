@@ -4,6 +4,7 @@ import y2020 from "./board-data-2020";
 import y2019 from "./board-data-2019";
 import y2018 from "./board-data-2018";
 import y2017 from "./board-data-2017";
+import y2015 from "./board-data-2015";
 import y2014 from "./board-data-2014";
 import y2013 from "./board-data-2013";
 
@@ -23,6 +24,9 @@ const data = {
 
   /* Board Members 2017-2018 */
   y2017,
+
+  /* Board Members 2015-2016 */
+  y2015,
 
   /* Board Members 2014-2015 */
   y2014,

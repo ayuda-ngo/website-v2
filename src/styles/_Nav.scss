@@ -1,4 +1,9 @@
 nav {
+  position: fixed;
+  z-index: 999;
+  box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.151);
+  background-color: white;
+  width: 100vw;
   .Navbar {
     display: flex;
     align-items: center;
@@ -6,9 +11,9 @@ nav {
       width: 4.5em;
       margin-right: 1.2em;
     }
-    p {
-      font-family: BNoodle;
-      font-size: 2.7em;
+    h1 {
+      font-family: Capriola;
+      font-size: 2rem;
     }
     .hamburger {
       background-color: transparent;
@@ -87,7 +92,7 @@ nav {
       transform: translateY(60px);
     }
     a {
-      font-family: Bnoodle;
+      font-family: Capriola;
       font-size: 4em;
       text-decoration: none;
       color: rgba(255, 255, 255, 0.568);

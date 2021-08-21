@@ -44,7 +44,7 @@ const NavBar = () => {
           </svg>
         </button>
         <StaticImage src={logo} alt="logo" placeholder="blurred" />
-        <p>Ayuda</p>
+        <h1>AYUDA</h1>
       </div>
       <div className={`menu ${toggle ? "menu-active" : ""}`}>
         <div className="menu-links">

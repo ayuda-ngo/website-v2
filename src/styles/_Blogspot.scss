@@ -46,9 +46,9 @@
     transition: all 0.5s ease;
     cursor: pointer;
     h2 {
-      font-family: BNoodle;
+      font-family: Capriola;
       font-weight: normal;
-      font-size: 2em;
+      font-size: 1.5rem;
       color: white;
       span {
         color: #ffcf00;
@@ -58,12 +58,16 @@
     }
     p {
       color: white;
+      height: 18em;
       line-height: 1.5;
       margin-bottom: 2em;
       font-family: raleway;
       font-weight: 500;
       white-space: normal;
       font-size: 0.95em;
+      white-space: pre-wrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
     a {
       padding: 0.8em 2em;

@@ -149,7 +149,6 @@ const Events = () => {
               <div key={id} className="eventdes">
                 <p className="evhead">{title}</p>
                 <p className="evdesc">{desc} </p>
-                <pre>{img}</pre>
               </div>
             ))}
             <div className="texture"></div>

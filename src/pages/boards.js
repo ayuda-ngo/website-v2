@@ -8,8 +8,10 @@ import data from "../data/board-data";
 
 // assets
 import "../styles/board-page.scss";
-import logo from "../images/logo-head.png";
 import { Instagram, Linkedin } from "@styled-icons/boxicons-logos";
+import { StaticImage } from "gatsby-plugin-image";
+
+const logo = "../images/logo-head.png";
 
 const generateBoardSection = (year) => (
   <div className="Bcards">
@@ -55,7 +57,7 @@ const generateBoardSection = (year) => (
 );
 
 const BoardMemberPage = () => {
-  const { y2021, y2020, y2019, y2018, y2017, y2014, y2013 } = data;
+  const { y2021, y2020, y2019, y2018, y2017, y2015, y2014, y2013 } = data;
   return (
     <div className="BoardP">
       <Helmet>
@@ -67,8 +69,8 @@ const BoardMemberPage = () => {
       <div className="Bhead row">
         <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 contoverflow">
           <Link to="/" className="title">
-            <img src={logo} alt="ayudalogo" />
-            <p>Ayuda</p>
+            <StaticImage src={logo} alt="ayudalogo" />
+            <h1>AYUDA</h1>
           </Link>
           <div className="content">
             <h3>Board Members</h3>
@@ -91,6 +93,7 @@ const BoardMemberPage = () => {
       {generateBoardSection(y2019)}
       {generateBoardSection(y2018)}
       {generateBoardSection(y2017)}
+      {generateBoardSection(y2015)}
       {generateBoardSection(y2014)}
       {generateBoardSection(y2013)}
     </div>

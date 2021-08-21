@@ -2,9 +2,6 @@ import * as React from "react";
 import { Link } from "react-scroll";
 import { StaticImage } from "gatsby-plugin-image";
 
-// project import
-import NavBar from "../container/navbar";
-
 // assets
 import {
   FacebookSquare,
@@ -20,7 +17,6 @@ const Landing = () => {
     <div className="Landing">
       <div className="row">
         <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-          <NavBar />
           <div className=" titles caption1">
             <hr />
             <h4>WE ARE AYUDA NGO</h4>
