@@ -1,16 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
-@import "./Nav";
-@import "./Landing";
-@import "./Story";
-@import "./Video";
-@import "./Events";
-@import "./Initiatives";
-@import "./Blogspot";
-@import "./Board";
-@import "./Gallery";
-@import "./Contact";
-
 @font-face {
   font-family: BNoodle;
   src: url("./fonts/big_noodle_titling.ttf");
@@ -51,6 +40,18 @@ img {
   -webkit-user-select: none;
   -ms-user-select: none;
 }
+
+@import "./Nav";
+@import "./Landing";
+@import "./Story";
+@import "./Video";
+@import "./Events";
+@import "./Initiatives";
+@import "./Blogspot";
+@import "./Board";
+@import "./Gallery";
+@import "./Contact";
+
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   html {
     height: 100%;
