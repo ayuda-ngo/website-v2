@@ -4,14 +4,6 @@ module.exports = {
     title: "website-v2",
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-scroll-indicator`,
-      options: {
-        // Configure your indicator bar color here
-        color: "linear-gradient(to right, #0034a5, #001C59)",
-        height: "6px",
-      },
-    },
     "gatsby-plugin-sass",
     // {
     //   resolve: "gatsby-source-medium-feed",

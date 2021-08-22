@@ -16,12 +16,17 @@ const Landing = () => {
   return (
     <div className="Landing">
       <div className="row">
-        <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-          <div className=" titles caption1">
+        <div
+          className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6"
+          style={{
+            marginTop: "8rem",
+          }}
+        >
+          <div className="titles caption1">
             <hr />
             <h4>WE ARE AYUDA NGO</h4>
           </div>
-          <div className=" titles caption2">
+          <div className="titles caption2">
             <p>
               At <span>Ayuda,</span> we work towards the betterment of our{" "}
               <span>world</span>{" "}

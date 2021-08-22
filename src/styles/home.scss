@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Capriola&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
 @import "./Nav";
 @import "./Landing";
@@ -10,6 +10,22 @@
 @import "./Board";
 @import "./Gallery";
 @import "./Contact";
+
+@font-face {
+  font-family: BNoodle;
+  src: url("./fonts/big_noodle_titling.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: BNoodle;
+  src: url("./fonts/big_noodle_titling_oblique.ttf");
+  font-weight: normal;
+  font-style: oblique;
+  font-display: swap;
+}
 
 * {
   margin: 0%;
@@ -43,16 +59,16 @@ img {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 0;
+  width: 0.6rem;
 }
 
-// /* Track */
-// ::-webkit-scrollbar-track {
-//   background: #ffffff;
-// }
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
 
-// /* Handle */
-// ::-webkit-scrollbar-thumb {
-//   border-radius: 2px;
-//   background: #0034a5;
-// }
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background: linear-gradient(to right, #0034a5, #001c59);
+}
