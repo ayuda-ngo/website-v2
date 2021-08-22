@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useState } from "react";
 
 // project imports
 import loadable from "@loadable/component";
@@ -17,7 +17,7 @@ import {
 const Carousel = loadable(() => import("react-spring-3d-carousel"));
 
 const Initiatives = () => {
-  const [card, setCard] = React.useState({
+  const [card, setCard] = useState({
     goToSlide: 0,
     offsetRadius: 2,
     showNavigation: true,

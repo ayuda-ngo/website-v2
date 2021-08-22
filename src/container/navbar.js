@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useState } from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "react-scroll";
 
@@ -10,8 +10,8 @@ import { useScrollPosition } from "../hooks/useScrollPosition";
 const logo = "../images/logo-head.png";
 
 const NavBar = () => {
-  const [toggle, settoggle] = React.useState(false);
-  const [showNavBar, setShowNavBar] = React.useState(false);
+  const [toggle, settoggle] = useState(false);
+  const [showNavBar, setShowNavBar] = useState(false);
 
   const { anim, revanim } = anime;
 

@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { TweenLite, Power3 } from "gsap";
 
 // project import
@@ -11,12 +11,12 @@ import {
 } from "@styled-icons/bootstrap";
 
 const Events = () => {
-  let imgref = React.useRef(null);
-  let desref = React.useRef(null);
-  let titleref = React.useRef(null);
+  let imgref = useRef(null);
+  let desref = useRef(null);
+  let titleref = useRef(null);
 
-  const [mul, setmul] = React.useState(0);
-  React.useEffect(() => {
+  const [mul, setmul] = useState(0);
+  useEffect(() => {
     TweenLite.to(titleref.children[0], 0, {
       opacity: 1,
     });
