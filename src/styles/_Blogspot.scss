@@ -39,7 +39,8 @@
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.13);
     border-radius: 10px;
     width: 18em;
-    height: 23em;
+    // height: 23em;
+    height: 20em;
     margin-right: 2em;
     padding: 2em;
     border: 2px solid rgba(255, 255, 255, 0.404);
@@ -47,9 +48,10 @@
     cursor: pointer;
     h2 {
       font-family: BNoodle;
-      font-weight: normal;
-      font-size: 1.5rem;
+      font-weight: 300;
+      font-size: 1.8rem;
       color: white;
+      // color: #ffcf00;
       span {
         color: #ffcf00;
       }
@@ -58,13 +60,14 @@
     }
     p {
       color: white;
-      height: 18em;
-      line-height: 1.5;
-      margin-bottom: 2em;
+      // height: 18em;
+      // height: 2rem;
+      // line-height: 1.5;
+      // margin-bottom: 2em;
       font-family: raleway;
       font-weight: 500;
       white-space: normal;
-      font-size: 0.95em;
+      font-size: 1rem;
       white-space: pre-wrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -74,8 +77,8 @@
       width: 9.3em;
       text-decoration: none;
       color: white;
-      background-color: #ffcf00;
-      border-radius: 8px;
+      // background-color: #ffcf00;
+      border: 2px solid #ffcf00;
       font-family: raleway;
       font-weight: 600;
     }

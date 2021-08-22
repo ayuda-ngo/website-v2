@@ -1,17 +1,17 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.ngoayuda.org",
+    siteUrl: "https://ngoayuda.org",
     title: "website-v2",
   },
   plugins: [
     "gatsby-plugin-sass",
-    // {
-    //   resolve: "gatsby-source-medium-feed",
-    //   options: {
-    //     userName: "@...", // Medium user name
-    //     name: "MediumFeed", // GraphQL query AllMediumFeed
-    //   },
-    // },
+    {
+      resolve: "gatsby-source-medium-feed",
+      options: {
+        userName: "ayuda-ngo", // Medium user name
+        name: "MediumFeed", // GraphQL query AllMediumFeed
+      },
+    },
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
