@@ -5,11 +5,10 @@ import pic20163 from "../../images/board/2016/pic2016-3.jpg";
 import pic20164 from "../../images/board/2016/pic2016-4.jpg";
 import pic20165 from "../../images/board/2016/pic2016-5.jpg";
 import pic20166 from "../../images/board/2016/pic2016-6.jpg";
-// import pic20167 from "../../images/board/2016/pic2016-7.jpg";
-// import pic20168 from "../../images/board/2016/pic2016-8.jpg";
-// import pic20169 from "../../images/board/2016/pic2016-9.jpg";
-// import pic201610 from "../../images/board/2016/pic2016-10.jpg";
-// import pic201611 from "../../images/board/2016/pic2016-11.jpg";
+import pic20167 from "../../images/board/2016/pic2016-7.jpg";
+import pic20168 from "../../images/board/2016/pic2016-8.jpg";
+import pic20169 from "../../images/board/2016/pic2016-9.jpg";
+import pic201610 from "../../images/board/2016/pic2016-10.jpg";
 
 // data
 const y2016 = {
@@ -65,7 +64,7 @@ const y2016 = {
     },
     {
       id: "7",
-      // img: pic20167,
+      img: pic20167,
       name: "Neha Agnihotri",
       designation: "Director of HR",
       instagram: ".",
@@ -73,7 +72,7 @@ const y2016 = {
     },
     {
       id: "8",
-      // img: pic20168,
+      img: pic20168,
       name: "Nishtha Painul",
       designation: "Editorial Head",
       instagram: ".",
@@ -81,7 +80,7 @@ const y2016 = {
     },
     {
       id: "9",
-      // img: pic20169,
+      img: pic20169,
       name: "Soumyadipto Santra",
       designation: "Events Head",
       instagram: ".",
@@ -89,7 +88,7 @@ const y2016 = {
     },
     {
       id: "10",
-      // img: pic201610,
+      img: pic201610,
       name: "Tushar Sharma",
       designation: "Publicity and Marketing",
       instagram: ".",
