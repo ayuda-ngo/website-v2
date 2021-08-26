@@ -5,9 +5,9 @@ const Gallery = () => (
   <div className="Gallery">
     <h1>GALLERY</h1>
     <p>
-      Every <span>Smile</span> has a story. <br /> With Each <span>Smile</span>
-      we <span>capture,</span> we hope to <br />{" "}
-      <span> Connect, Inspire & Empower. </span>
+      Every <span>Smile</span> has a story. <br /> With Each <span>Smile </span>
+      we <span>capture,</span> we hope to <br />
+      <span> connect, Inspire & Empower. </span>
     </p>
     <Link to="/gallery">Open Gallery</Link>
     <br />
