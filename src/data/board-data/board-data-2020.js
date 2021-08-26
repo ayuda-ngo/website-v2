@@ -75,7 +75,7 @@ const y2020 = {
       id: "8",
       img: pic20208,
       name: "Shivesh Sharan",
-      designation: "External Events Head",
+      designation: "Finance Head",
       instagram: "https://instagram.com/shivesh.sharan",
       linkedin: "https://www.linkedin.com/in/shivesh-sharan-b1b1ba113",
     },

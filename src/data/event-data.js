@@ -14,7 +14,7 @@ const data = [
     img: christmas,
     title: "Christmas",
     sidetitle: "Christmas",
-    desc: "We often visit a care-taking facility for needy children named Nambikai Illam. Christmas'19 we had a drawing competition for the kids and also fun with Santa giving away candies and gifts. ",
+    desc: "We often visit a care-taking facility for needy children named Nambikai Illam. We had a drawing competition during Christmas '19. Moreover Santa gave away gift and candies to lift the children's spirits.",
   },
   {
     id: "2",

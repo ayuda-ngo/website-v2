@@ -40,7 +40,7 @@ const Story = () => (
             achieved great recognition due to their diligent members,
             commendable team spirit and our blooming projects. Be it a campaign
             to stop sexual violence, spending the day at a differently- abled
-            organisation or having session on drug abuse, we have done it all!
+            organisation or having a session on drug abuse, we have done it all!
           </p>
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 order1">

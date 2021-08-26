@@ -9,7 +9,7 @@ const generateMediumCard = (data) => {
         -- by {data.author}
         <br />
         <br />
-        Publish date: {data.date}
+        Published on: {data.date}
       </p>
 
       <a href={data.link} target="_blank" rel="noopener noreferrer">
