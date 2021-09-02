@@ -16,6 +16,9 @@ module.exports = {
       resolve: "gatsby-plugin-google-gtag",
       options: {
         trackingIds: ["G-EW6ZSHV93Q"],
+        pluginConfig: {
+          head: true,
+        },
       },
     },
     "gatsby-plugin-react-helmet",
