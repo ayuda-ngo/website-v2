@@ -10,12 +10,24 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      # ( Build to ./dist or other directory... )
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.4.1
+        with:
+          # Version Spec of the version to use.  Examples: 12.x, 10.15.1, >=10.15.0
+          node-version: 14.x
+          # Used to specify a package manager for caching in the default directory. Supported values: npm, yarn, pnpm
+          cache: npm
+          
+      - name: Install Dependencies
+        run: npm install
+        
+      - name: Build
+        run: npm build
 
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v1.2
         with:
-          publish-dir: './build'
+          publish-dir: "./build"
           production-branch: master
           github-token: ${{ secrets.GITHUB_TOKEN }}
           deploy-message: "Deploy from GitHub Actions"
