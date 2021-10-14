@@ -38,9 +38,17 @@ const y2016 = {
       instagram: ".",
       linkedin: ".",
     },
-    
     {
       id: "4",
+      img: pic20167,
+      name: "Neha Agnihotri",
+      designation: "Director of HR",
+      instagram: ".",
+      linkedin: ".",
+    },
+    
+    {
+      id: "5",
       img: pic20164,
       name: "Naman Sagar",
       designation: "Internal Events Head",
@@ -48,7 +56,7 @@ const y2016 = {
       linkedin: ".",
     },
      {
-      id: "5",
+      id: "6",
       img: pic20169,
       name: "Soumyadipto Santra",
       designation: "Events Head",
@@ -56,7 +64,7 @@ const y2016 = {
       linkedin: ".",
     },
     {
-      id: "6",
+      id: "7",
       img: pic20168,
       name: "Nishtha Painul",
       designation: "Editorial Head",
@@ -65,7 +73,7 @@ const y2016 = {
     },
    
     {
-      id: "7",
+      id: "8",
       img: pic20165,
       name: "Yarin Sachdeva",
       designation: "Treasurer",
@@ -73,7 +81,7 @@ const y2016 = {
       linkedin: ".",
     },
     {
-      id: "8",
+      id: "9",
       img: pic201610,
       name: "Tushar Sharma",
       designation: "Publicity and Marketing",
@@ -81,23 +89,13 @@ const y2016 = {
       linkedin: ".",
     },
     {
-      id: "9",
+      id: "10",
       img: pic20166,
       name: "Ashutosh Mishra",
       designation: "Public Relations",
       instagram: ".",
       linkedin: ".",
     },
-    {
-      id: "10",
-      img: pic20167,
-      name: "Neha Agnihotri",
-      designation: "Director of HR",
-      instagram: ".",
-      linkedin: ".",
-    },
-    
-    
   ],
 };
 
