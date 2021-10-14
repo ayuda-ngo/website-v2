@@ -24,20 +24,21 @@ const y2016 = {
     },
     {
       id: "2",
-      img: pic20162,
-      name: "Zishan Ahmad",
-      designation: "General Secretary",
-      instagram: ".",
-      linkedin: ".",
-    },
-    {
-      id: "3",
       img: pic20163,
       name: "Bharat Damodaran",
       designation: "Vice Chairperson",
       instagram: ".",
       linkedin: ".",
     },
+    {
+      id: "3",
+      img: pic20162,
+      name: "Zishan Ahmad",
+      designation: "General Secretary",
+      instagram: ".",
+      linkedin: ".",
+    },
+    
     {
       id: "4",
       img: pic20164,
@@ -46,40 +47,8 @@ const y2016 = {
       instagram: ".",
       linkedin: ".",
     },
-    {
+     {
       id: "5",
-      img: pic20165,
-      name: "Yarin Sachdeva",
-      designation: "Treasurer",
-      instagram: ".",
-      linkedin: ".",
-    },
-    {
-      id: "6",
-      img: pic20166,
-      name: "Ashutosh Mishra",
-      designation: "Public Relations",
-      instagram: ".",
-      linkedin: ".",
-    },
-    {
-      id: "7",
-      img: pic20167,
-      name: "Neha Agnihotri",
-      designation: "Director of HR",
-      instagram: ".",
-      linkedin: ".",
-    },
-    {
-      id: "8",
-      img: pic20168,
-      name: "Nishtha Painul",
-      designation: "Editorial Head",
-      instagram: ".",
-      linkedin: ".",
-    },
-    {
-      id: "9",
       img: pic20169,
       name: "Soumyadipto Santra",
       designation: "Events Head",
@@ -87,13 +56,48 @@ const y2016 = {
       linkedin: ".",
     },
     {
-      id: "10",
+      id: "6",
+      img: pic20168,
+      name: "Nishtha Painul",
+      designation: "Editorial Head",
+      instagram: ".",
+      linkedin: ".",
+    },
+   
+    {
+      id: "7",
+      img: pic20165,
+      name: "Yarin Sachdeva",
+      designation: "Treasurer",
+      instagram: ".",
+      linkedin: ".",
+    },
+    {
+      id: "8",
       img: pic201610,
       name: "Tushar Sharma",
       designation: "Publicity and Marketing",
       instagram: ".",
       linkedin: ".",
     },
+    {
+      id: "9",
+      img: pic20166,
+      name: "Ashutosh Mishra",
+      designation: "Public Relations",
+      instagram: ".",
+      linkedin: ".",
+    },
+    {
+      id: "10",
+      img: pic20167,
+      name: "Neha Agnihotri",
+      designation: "Director of HR",
+      instagram: ".",
+      linkedin: ".",
+    },
+    
+    
   ],
 };
 
