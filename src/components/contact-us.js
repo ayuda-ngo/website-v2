@@ -21,38 +21,42 @@ const ContactUs = () => (
     <a href="mailto:ngoayuda@gmail.com" id="contact">
       Contact Us
     </a>
-    <div className="social">
-      <a
-        href="https://www.facebook.com/ngoayuda/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FacebookSquare size="30" color="#888888" className="icon" />
-      </a>
-      <a
-        href="https://www.instagram.com/ayuda.ngo/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        {" "}
-        <Instagram size="30" color="#888888" className="icon" />
-      </a>
-      <a
-        href="https://www.linkedin.com/company/ayuda-ngo/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Linkedin size="30" color="#888888" className="icon" />
-      </a>
-      <a
-        href="https://ngoayuda.medium.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Medium size="30" color="#888888" className="icon" />
-      </a>
+    <div className="Handle">
+      <div className="social">
+        <a
+          href="https://www.facebook.com/ngoayuda/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FacebookSquare size="30" color="#010101" className="icon" />
+        </a>
+        <a
+          href="https://www.instagram.com/ayuda.ngo/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {" "}
+          <Instagram size="30" color="#010101" className="icon" />
+        </a>
+        <a
+          href="https://www.linkedin.com/company/ayuda-ngo/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Linkedin size="30" color="#010101" className="icon" />
+        </a>
+        <a
+          href="https://ngoayuda.medium.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Medium size="30" color="#010101" className="icon" />
+        </a>
+      </div>
+      <div>
+        <p id="copyright">© Copyright 2021 | NGO Ayuda VIT</p>
+      </div>
     </div>
-    <p id="copyright">© Copyright 2021 | NGO Ayuda VIT</p>
   </div>
 );
 
