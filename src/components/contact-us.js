@@ -14,7 +14,7 @@ const ContactUs = () => (
     <h1>GET INVOLVED.</h1>
     <p>
       “A person’s most useful asset is not a head full of knowledge, but a heart
-      full of love, an ear ready to listen and a hand willing to aid others.”
+      full of love, an ear ready to listen and a hand willing to aid others".
       Want to volunteer, donate or share ideas? We would love to get in touch
       with you!
     </p>
@@ -28,7 +28,7 @@ const ContactUs = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FacebookSquare size="30" color="#010101" className="icon" />
+          <FacebookSquare size="30" color="#d3d3d3" className="icon" />
         </a>
         <a
           href="https://www.instagram.com/ayuda.ngo/"
@@ -36,21 +36,21 @@ const ContactUs = () => (
           rel="noopener noreferrer"
         >
           {" "}
-          <Instagram size="30" color="#010101" className="icon" />
+          <Instagram size="30" color="#d3d3d3" className="icon" />
         </a>
         <a
           href="https://www.linkedin.com/company/ayuda-ngo/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Linkedin size="30" color="#010101" className="icon" />
+          <Linkedin size="30" color="#d3d3d3" className="icon" />
         </a>
         <a
           href="https://ngoayuda.medium.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Medium size="30" color="#010101" className="icon" />
+          <Medium size="30" color="#d3d3d3" className="icon" />
         </a>
       </div>
       <div>

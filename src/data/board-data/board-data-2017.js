@@ -38,14 +38,7 @@ const y2017 = {
       instagram: ".",
       linkedin: ".",
     },
-    {
-      id: "4",
-      img: pic20176,
-      name: "Sakshi Tayal",
-      designation: "Director of HR",
-      instagram: ".",
-      linkedin: ".",
-    },
+
     {
       id: "5",
       img: pic20178,
@@ -91,6 +84,14 @@ const y2017 = {
       img: pic20177,
       name: "Kevin Paul",
       designation: "Public relations",
+      instagram: ".",
+      linkedin: ".",
+    },
+    {
+      id: "4",
+      img: pic20176,
+      name: "Sakshi Tayal",
+      designation: "Director of HR",
       instagram: ".",
       linkedin: ".",
     },

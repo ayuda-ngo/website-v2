@@ -69,6 +69,10 @@
       margin-block-start: 0;
       margin-block-end: 0;
     }
+    svg:hover {
+      color: #ffcf00;
+      transform: scale(1.5);
+    }
   }
   .card-body {
     height: 6rem;

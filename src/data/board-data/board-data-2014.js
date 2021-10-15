@@ -63,15 +63,7 @@ const y2014 = {
       instagram: ".",
       linkedin: ".",
     },
-    {
-      id: "7",
-      img: pic20145,
-      name: "Kevin Andrew K",
-      designation: "Treasurer",
-      instagram: ".",
-      linkedin: ".",
-    },
-    
+
     {
       id: "8",
       img: pic201410,
@@ -96,12 +88,20 @@ const y2014 = {
       instagram: ".",
       linkedin: ".",
     },
-    
+
     {
       id: "11",
       img: pic201411,
       name: "S R Arun",
       designation: "Technical Head",
+      instagram: ".",
+      linkedin: ".",
+    },
+    {
+      id: "7",
+      img: pic20145,
+      name: "Kevin Andrew K",
+      designation: "Treasurer",
       instagram: ".",
       linkedin: ".",
     },

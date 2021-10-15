@@ -23,6 +23,22 @@ const y2015 = {
       linkedin: ".",
     },
     {
+      id: "8",
+      img: pic20156,
+      name: "Pooja Reddy",
+      designation: "Publicity and Marketing",
+      instagram: ".",
+      linkedin: ".",
+    },
+    {
+      id: "9",
+      img: pic20157,
+      name: "S D Sudarshan",
+      designation: "Publicity and Marketing",
+      instagram: ".",
+      linkedin: ".",
+    },
+    {
       id: "2",
       img: pic201510,
       name: "Sankeerth Gaud",
@@ -70,22 +86,7 @@ const y2015 = {
       instagram: ".",
       linkedin: ".",
     },
-    {
-      id: "8",
-      img: pic20156,
-      name: "Pooja Reddy",
-      designation: "Publicity and Marketing",
-      instagram: ".",
-      linkedin: ".",
-    },
-    {
-      id: "9",
-      img: pic20157,
-      name: "S D Sudarshan",
-      designation: "Publicity and Marketing",
-      instagram: ".",
-      linkedin: ".",
-    },
+
     {
       id: "10",
       img: pic20158,
@@ -102,7 +103,6 @@ const y2015 = {
       instagram: ".",
       linkedin: ".",
     },
-    
   ],
 };
 

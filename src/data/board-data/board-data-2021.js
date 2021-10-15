@@ -20,7 +20,7 @@ const y2021 = {
       name: "Swethaa R ",
       designation: "Chairperson",
       instagram: "https://instagram.com/swethaa.ravi?igshid=t4mj0i8ku2gs",
-      linkedin: ".",
+      linkedin: "https://www.linkedin.com/in/swethaa-ravi-7169241b1",
     },
     {
       id: "2",
@@ -29,6 +29,14 @@ const y2021 = {
       designation: "Vice Chairperson",
       instagram: "https://www.instagram.com/_the_apollyon_/",
       linkedin: "https://www.linkedin.com/in/jainam-desai/",
+    },
+    {
+      id: "9",
+      img: pic20213,
+      name: "Oishani Sengupta",
+      designation: "Publicity & Marketing Head",
+      instagram: "https://instagram.com/senguptaoishani?igshid=o44m3784zh76",
+      linkedin: ".",
     },
     {
       id: "3",
@@ -64,6 +72,7 @@ const y2021 = {
       instagram: "https://instagram.com/shyam_16_?igshid=1agwlnxek19ns",
       linkedin: "https://www.linkedin.com/in/shyam-r-845486196",
     },
+
     {
       id: "7",
       img: pic20214,
@@ -73,28 +82,21 @@ const y2021 = {
       linkedin: ".",
     },
     {
-      id: "8",
-      img: pic20216,
-      name: "Hartej Singh",
-      designation: "Finance Head",
-      instagram: "https://www.instagram.com/hahahartej/ ",
-      linkedin: "https://www.linkedin.com/in/hartej-singh-6b8977192/",
-    },
-    {
-      id: "9",
-      img: pic20213,
-      name: "Oishani Sengupta",
-      designation: "Publicity & Marketing Head",
-      instagram: "https://instagram.com/senguptaoishani?igshid=o44m3784zh76",
-      linkedin: ".",
-    },
-    {
       id: "10",
       img: pic20215,
       name: "Deepanshu Srivastava",
       designation: "Design Head",
       instagram: "https://instagram.com/deepanshu_0709_?igshid=yqnptoyvcv2a",
       linkedin: "https://www.linkedin.com/in/deepanshu-srivastava-94b533186",
+    },
+
+    {
+      id: "8",
+      img: pic20216,
+      name: "Hartej Singh",
+      designation: "Finance Head",
+      instagram: "https://www.instagram.com/hahahartej/ ",
+      linkedin: "https://www.linkedin.com/in/hartej-singh-6b8977192/",
     },
   ],
 };
