@@ -3,7 +3,7 @@ import pic20211 from "../../images/board/2021/pic2021-1.jpg";
 import pic20212 from "../../images/board/2021/pic2021-2.jpg";
 import pic20213 from "../../images/board/2021/pic2021-3.jpg";
 import pic20214 from "../../images/board/2021/pic2021-4.jpg";
-import pic20215 from "../../images/board/2021/pic2021-5.jpg";
+import pic20215 from "../../images/board/2021/pic2021-5_2.jpg";
 import pic20216 from "../../images/board/2021/pic2021-6.jpg";
 import pic20217 from "../../images/board/2021/pic2021-7.jpg";
 import pic20218 from "../../images/board/2021/pic2021-8.jpg";
