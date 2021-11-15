@@ -2,7 +2,7 @@
   margin-top: 4.5em;
   h1 {
     font-family: raleway;
-    font-weight: 700;
+    font-weight: 200;
     font-size: 5.5em;
     width: 100%;
     text-align: center;
@@ -43,6 +43,8 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
   }
 
   #contact:hover {
@@ -55,21 +57,31 @@
     margin-right: auto;
     display: flex;
     justify-content: center;
-    margin-top: 7em;
+    margin-top: 1rem;
+    
     svg {
       margin-left: 0.4em;
       margin-right: 0.4em;
     }
     svg:hover {
-      color: #0034a5;
+      color: #ffcf00;
     }
   }
   #copyright {
+    color: #ffcf00;
     margin-top: 1em;
     font-size: 0.9em;
     font-weight: 600;
     opacity: 0.5;
   }
+  .Handle{
+    background-color: #0a1128;
+    padding-top: 1rem;
+    padding-bottom: 0.07rem;
+  }
+  // .icon{
+
+  // }
 }
 
 @media only screen and (max-width: 767px) {

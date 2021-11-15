@@ -32,6 +32,14 @@ const y2020 = {
       linkedin: "https://www.linkedin.com/in/juhi-verma-9b4278188",
     },
     {
+      id: "9",
+      img: pic20209,
+      name: "Soham Gosavi",
+      designation: "Publicity Head",
+      instagram: "https://www.instagram.com/sohamgosavi07",
+      linkedin: "https://www.linkedin.com/in/soham-gosavi-b17a60195",
+    },
+    {
       id: "3",
       img: pic20203,
       name: "Aman Mirza",
@@ -71,6 +79,15 @@ const y2020 = {
       instagram: "https://www.instagram.com/rishi_vandhanaa",
       linkedin: "https://www.linkedin.com/in/rishi-vandhanaa-k-2971351b3",
     },
+
+    {
+      id: "11",
+      img: pic202011,
+      name: "Ayush Bhatia",
+      designation: "Design Head",
+      instagram: "https://www.instagram.com/bhatiaayush01",
+      linkedin: ".",
+    },
     {
       id: "8",
       img: pic20208,
@@ -80,28 +97,12 @@ const y2020 = {
       linkedin: "https://www.linkedin.com/in/shivesh-sharan-b1b1ba113",
     },
     {
-      id: "9",
-      img: pic20209,
-      name: "Soham Gosavi",
-      designation: "Publicity Head",
-      instagram: "https://www.instagram.com/sohamgosavi07",
-      linkedin: "https://www.linkedin.com/in/soham-gosavi-b17a60195",
-    },
-    {
       id: "10",
       img: pic202010,
       name: "Gitanjali Singh",
       designation: "Director of HR",
       instagram: "https://www.instagram.com/_gitanjalisingh",
       linkedin: "https://www.linkedin.com/in/gitanjali-singh-1973161a0",
-    },
-    {
-      id: "11",
-      img: pic202011,
-      name: "Ayush Bhatia",
-      designation: "Design Head",
-      instagram: "https://www.instagram.com/bhatiaayush01",
-      linkedin: ".",
     },
   ],
 };
