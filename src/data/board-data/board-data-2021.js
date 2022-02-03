@@ -27,7 +27,7 @@ const y2021 = {
       img: pic20212,
       name: "Jainam Desai ",
       designation: "Vice Chairperson",
-      instagram: "https://www.instagram.com/_the_apollyon_/",
+      instagram: "https://www.instagram.com/jainam_here_/",
       linkedin: "https://www.linkedin.com/in/jainam-desai/",
     },
     {
