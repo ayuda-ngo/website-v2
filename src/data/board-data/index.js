@@ -1,4 +1,5 @@
 // imports
+import y2022 from "./board-data-2022";
 import y2021 from "./board-data-2021";
 import y2020 from "./board-data-2020";
 import y2019 from "./board-data-2019";
@@ -11,6 +12,9 @@ import y2013 from "./board-data-2013";
 
 // costants
 const data = {
+  /* Board members for 2022-2023  */
+  y2022,
+
   /* Board members for 2021-2022  */
   y2021,
 

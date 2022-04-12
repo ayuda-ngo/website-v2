@@ -62,8 +62,18 @@ const generateBoardSection = (year) => (
 );
 
 const BoardMemberPage = () => {
-  const { y2021, y2020, y2019, y2018, y2017, y2016, y2015, y2014, y2013 } =
-    data;
+  const {
+    y2022,
+    y2021,
+    y2020,
+    y2019,
+    y2018,
+    y2017,
+    y2016,
+    y2015,
+    y2014,
+    y2013,
+  } = data;
 
   return (
     <div className="BoardP">
@@ -81,7 +91,7 @@ const BoardMemberPage = () => {
           </Link>
           <div className="content">
             <h3>Board Members</h3>
-            <h4>2013-2021</h4>
+            <h4>2013-2022</h4>
             <p>
               “It is so hard to say goodbye to <span> strangers</span> who
               turned into <span> your family.</span> We miss your presence in
@@ -95,6 +105,7 @@ const BoardMemberPage = () => {
         </div>
       </div>
 
+      {generateBoardSection(y2022)}
       {generateBoardSection(y2021)}
       {generateBoardSection(y2020)}
       {generateBoardSection(y2019)}
