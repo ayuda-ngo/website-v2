@@ -1,9 +1,9 @@
 // assets
 import pic20221 from "../../images/board/2022/pic2022-1.jpg";
-import pic20222 from "../../images/board/2022/pic2022-2.jpeg";
+import pic20222 from "../../images/board/2022/pic2022-2.jpg";
 import pic20223 from "../../images/board/2022/pic2022-3.jpg";
 import pic20224 from "../../images/board/2022/pic2022-4.jpg";
-import pic20225 from "../../images/board/2022/pic2022-5.png";
+import pic20225 from "../../images/board/2022/pic2022-5.jpg";
 import pic20226 from "../../images/board/2022/pic2022-6.jpg";
 import pic20227 from "../../images/board/2022/pic2022-7.jpg";
 import pic20228 from "../../images/board/2022/pic2022-8.jpg";
