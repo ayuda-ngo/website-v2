@@ -63,6 +63,7 @@ const generateBoardSection = (year) => (
 
 const BoardMemberPage = () => {
   const {
+    y2023,
     y2022,
     y2021,
     y2020,
@@ -105,6 +106,7 @@ const BoardMemberPage = () => {
         </div>
       </div>
 
+      {generateBoardSection(y2023)}
       {generateBoardSection(y2022)}
       {generateBoardSection(y2021)}
       {generateBoardSection(y2020)}

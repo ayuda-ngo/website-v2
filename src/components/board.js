@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 
 // project imports
-import data from "../data/board-data/board-data-2022";
+import data from "../data/board-data/board-data-2023";
 
 // assets
 import { Instagram, Linkedin } from "@styled-icons/boxicons-logos";
