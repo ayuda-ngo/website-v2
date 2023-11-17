@@ -89,7 +89,7 @@ const y2023 = {
     {
       id: "7",
       img: pic20237,
-      name: "Satwika",
+      name: "Satwika B",
       designation: "Editorial Head",
       instagram: "https://www.instagram.com/inlet_out97/",
       linkedin: "https://www.linkedin.com/in/satwikab/",
